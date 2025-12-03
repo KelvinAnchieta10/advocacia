@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Direito do Trabalho | Defesa Estratégica para Trabalhadores e Empresas</title>
+
+  <!-- FONTES GOOGLE -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+
+ <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- BOTÃO FLUTUANTE WHATSAPP -->
+  <a href="https://wa.me/5511968606841?text=Ol%C3%A1%2C%20gostaria%20de%20tirar%20uma%20d%C3%BAvida%20trabalhista."
+    target="_blank" class="floating-whatsapp">
+    <span class="floating-whatsapp__icon">💬</span>
+    <span class="floating-whatsapp__text">Falar no WhatsApp</span>
+  </a>
+
+  <!-- CABEÇALHO -->
+  <header class="header">
+  <div class="container header__content">
+    <div class="header__brand">
+      <div class="header__logo-text">
+        <span class="header__logo-title">Direito do Trabalho</span>
+        <span class="header__logo-subtitle">Consultoria & Defesa Estratégica</span>
+      </div>
+    </div>
+
+    <!-- BOTÃO HAMBÚRGUER (MOBILE) -->
+    <button class="header__toggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <!-- MENU -->
+    <nav class="nav">
+      <a href="#atuacao">Áreas de atuação</a>
+      <a href="#como-funciona">Como funciona</a>
+      <a href="#sobre">Sobre o escritório</a>
+      <a href="#depoimentos">Resultados</a>
+      <a href="#contato" class="nav__cta">Atendimento</a>
+    </nav>
+  </div>
+</header>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="container hero__grid">
+      <div class="hero__text">
+        <span class="hero__badge">Advocacia trabalhista moderna • Online e presencial</span>
+
+        <h1>
+          Seus direitos trabalhistas não são “favor”.  
+          São garantias que podem mudar sua vida.
+        </h1>
+
+        <p class="hero__subtitle">
+          Atuação especializada em Direito do Trabalho para trabalhadores e empresas:
+          demissão, verbas rescisórias, assédio, horas extras, acordos e negociações.
+        </p>
+
+        <div class="hero__actions">
+          <a href="https://wa.me/5511968606841?text=Quero%20entender%20meus%20direitos%20trabalhistas."
+            target="_blank" class="btn btn--primary js-animated-button">
+            Entender meus direitos no WhatsApp
+          </a>
+          <a href="#atuacao" class="btn btn--ghost js-animated-button">
+            Ver situações em que atuamos
+          </a>
+        </div>
+
+        <div class="hero__trust-bar">
+          <div class="hero__trust-item">
+            <span class="hero__trust-number">+ R$ 0</span>
+            <span class="hero__trust-label">pago para avaliar seu caso</span>
+          </div>
+          <div class="hero__trust-item">
+            <span class="hero__trust-number">+ 100</span>
+            <span class="hero__trust-label">situações trabalhistas diferentes atendidas</span>
+          </div>
+          <div class="hero__trust-item">
+            <span class="hero__trust-number">100%</span>
+            <span class="hero__trust-label">atendimento sigiloso e humanizado</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__card">
+        <div class="hero__card-top">
+          <span class="hero__card-label">Avaliação inicial</span>
+          <h2>Descreva sua situação trabalhista</h2>
+          <p>Receba uma análise inicial e entenda se vale a pena buscar seus direitos.</p>
+        </div>
+
+        <form class="hero-form" onsubmit="enviarWhatsapp(event)">
+          <input type="text" placeholder="Seu nome completo" required>
+          <input type="tel" placeholder="Seu telefone (WhatsApp)" required>
+          <select required>
+            <option value="">Qual situação mais se aproxima do seu caso?</option>
+            <option>Fui demitido(a) e acho que recebi menos do que deveria</option>
+            <option>Trabalhei sem registro / carteira assinada</option>
+            <option>Não recebo horas extras / adicional</option>
+            <option>Sofro ou sofri assédio moral ou sexual</option>
+            <option>Sou empresário(a) e preciso de consultoria trabalhista</option>
+            <option>Outro tipo de situação</option>
+          </select>
+          <textarea rows="3" placeholder="Conte brevemente o que aconteceu"></textarea>
+
+          <button type="submit" class="btn btn--primary btn--full js-animated-button">
+            Quero uma análise do meu caso
+          </button>
+
+          <span class="hero-form__info">
+            As informações são sigilosas e protegidas pelo sigilo profissional.
+          </span>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ÁREAS DE ATUAÇÃO -->
+  <section class="section section--soft" id="atuacao">
+    <div class="container">
+      <div class="section__header">
+        <h2>Em quais situações o escritório pode te ajudar?</h2>
+        <p>
+          Atuação focada em Direito do Trabalho, tanto para quem trabalha quanto para quem emprega.
+          Abaixo, alguns exemplos práticos:
+        </p>
+      </div>
+
+      <div class="grid grid--3">
+        <article class="card card--glass card--hover">
+          <h3>Demissão e verbas rescisórias</h3>
+          <p>
+            Análise de todos os valores pagos e devidos em demissões sem justa causa, por justa
+            causa, pedidos de demissão e acordos.
+          </p>
+          <ul>
+            <li>Férias, 13º, aviso prévio</li>
+            <li>Multa do FGTS</li>
+            <li>Diferenças não pagas</li>
+          </ul>
+          <a href="https://wa.me/5511968606841?text=Tenho%20d%C3%BAvidas%20sobre%20minhas%20verbas%20rescis%C3%B3rias."
+            target="_blank" class="card__link js-animated-button">
+            Saiba mais no WhatsApp
+          </a>
+        </article>
+
+        <article class="card card--glass card--hover">
+          <h3>Horas extras, adicional e jornada</h3>
+          <p>
+            Situações em que você trabalha além do combinado, sem receber corretamente, ou
+            com jornada acima do permitido pela lei.
+          </p>
+          <ul>
+            <li>Banco de horas irregular</li>
+            <li>Sobreaviso, plantões, escala 12x36</li>
+            <li>Intervalos não concedidos</li>
+          </ul>
+          <a href="https://wa.me/5511968606841?text=Quero%20entender%20minhas%20horas%20extras%20e%20jornada."
+            target="_blank" class="card__link js-animated-button">
+            Saiba mais no WhatsApp
+          </a>
+        </article>
+
+        <article class="card card--glass card--hover">
+          <h3>Assédio moral ou sexual</h3>
+          <p>
+            Casos de humilhações constantes, constrangimentos, ameaças, chantagens ou situações
+            abusivas no ambiente de trabalho.
+          </p>
+          <ul>
+            <li>Provas e testemunhas</li>
+            <li>Danos morais</li>
+            <li>Medidas de proteção</li>
+          </ul>
+          <a href="https://wa.me/5511968606841?text=Preciso%20falar%20sobre%20ass%C3%A9dio%20no%20trabalho."
+            target="_blank" class="card__link js-animated-button">
+            Falar sobre o meu caso
+          </a>
+        </article>
+
+        <article class="card card--glass card--hover">
+          <h3>Trabalho sem registro / “por fora”</h3>
+          <p>
+            Situações em que o vínculo não é registrado em carteira, ou parte do salário é pago
+            “por fora”, sem constar oficialmente.
+          </p>
+          <ul>
+            <li>Reconhecimento de vínculo</li>
+            <li>Regularização de carteira</li>
+            <li>Reflexos em férias, 13º e FGTS</li>
+          </ul>
+          <a href="https://wa.me/5511968606841?text=Trabalhei%20sem%20registro%20e%20quero%20informações."
+            target="_blank" class="card__link js-animated-button">
+            Entender meus direitos
+          </a>
+        </article>
+
+        <article class="card card--glass card--hover">
+          <h3>Estabilidade e doenças ocupacionais</h3>
+          <p>
+            Casos de afastamento pelo INSS, acidentes de trabalho, doenças ocupacionais
+            e estabilidade no emprego.
+          </p>
+          <ul>
+            <li>Auxílio-doença / aposentadoria</li>
+            <li>Acidente de trabalho</li>
+            <li>Estabilidade pós-acidente</li>
+          </ul>
+          <a href="https://wa.me/5511968606841?text=Tenho%20um%20caso%20de%20doen%C3%A7a%20ocupacional%20ou%20acidente."
+            target="_blank" class="card__link js-animated-button">
+            Falar com o escritório
+          </a>
+        </article>
+
+        <article class="card card--glass card--hover">
+          <h3>Consultoria para empresas</h3>
+          <p>
+            Apoio preventivo e estratégico para empresas que querem reduzir riscos e evitar
+            passivos trabalhistas.
+          </p>
+          <ul>
+            <li>Contratos e políticas internas</li>
+            <li>Auditoria de rotinas de RH</li>
+            <li>Negociações e acordos</li>
+          </ul>
+          <a href="https://wa.me/5511968606841?text=Sou%20empresa%20e%20preciso%20de%20consultoria%20trabalhista."
+            target="_blank" class="card__link js-animated-button">
+            Falar como empresa
+          </a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMO FUNCIONA -->
+  <section class="section" id="como-funciona">
+    <div class="container">
+      <div class="section__header">
+        <h2>Como funciona o acompanhamento do seu caso</h2>
+        <p>
+          Do primeiro contato até a conclusão, o objetivo é que você entenda o que está acontecendo
+          e se sinta seguro(a) com os próximos passos.
+        </p>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline__item timeline--hover">
+          <div class="timeline__number">1</div>
+          <div class="timeline__content">
+            <h3>Escuta atenta da sua história</h3>
+            <p>
+              Você conta, com calma, o que aconteceu: como começou, o que mudou, o que está
+              acontecendo hoje. Sem julgamentos, com sigilo e respeito.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline__item timeline--hover">
+          <div class="timeline__number">2</div>
+          <div class="timeline__content">
+            <h3>Análise jurídica e cenário realista</h3>
+            <p>
+              Avaliamos documentos, conversas, provas e histórico para entender quais direitos
+              podem ter sido violados e quais caminhos a lei permite.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline__item timeline--hover">
+          <div class="timeline__number">3</div>
+          <div class="timeline__content">
+            <h3>Estratégia: acordo, ação ou prevenção</h3>
+            <p>
+              Definimos juntos a melhor estratégia: negociação, ação judicial, acordo ou ajustes
+              internos (no caso de empresas).
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline__item timeline--hover">
+          <div class="timeline__number">4</div>
+          <div class="timeline__content">
+            <h3>Acompanhamento próximo e transparente</h3>
+            <p>
+              Você recebe atualizações sobre prazos, audiências e movimentações, sempre com
+              explicações claras em linguagem simples.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE O ESCRITÓRIO -->
+  <section class="section section--soft" id="sobre">
+    <div class="container about">
+      <div class="about__photo">
+        <div class="about__photo-inner">
+          <img src="./img/Equipe de Advogados.png" alt="Equipe de advocacia trabalhista">
+        </div>
+      </div>
+
+      <div class="about__text">
+        <span class="section__tag">Sobre o escritório</span>
+        <h2>Especializado em Direito do Trabalho, focado em pessoas reais.</h2>
+
+        <p>
+          Este espaço é para você apresentar a história do escritório: experiência na área
+          trabalhista, número de casos atendidos, forma de atuação (online/presencial) e valores.
+        </p>
+
+        <p>
+          Exemplo: “Atuamos exclusivamente com Direito do Trabalho, atendendo trabalhadores
+          e empresas que buscam segurança jurídica, clareza e estratégia em cada decisão.”
+        </p>
+
+        <div class="about__details">
+          <p><strong>Atuação:</strong> Direito do Trabalho (trabalhador e empresa)</p>
+          <p><strong>Atendimento:</strong> Online para todo o Brasil e presencial em Cidade/UF</p>
+          <p><strong>Estilo de atuação:</strong> técnico, humano e estratégico</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEPOIMENTOS -->
+  <section class="section" id="depoimentos">
+    <div class="container">
+      <div class="section__header">
+        <h2>Depoimentos de quem já regularizou a vida trabalhista</h2>
+        <p>Você poderá substituir esses exemplos por relatos reais (mantendo o sigilo). </p>
+      </div>
+
+      <div class="grid grid--3">
+        <article class="card card--testimonial card--hover">
+          <p class="card__quote">
+            “Descobri que tinha valores a receber que eu nem imaginava. Fui orientada
+            passo a passo e hoje está tudo resolvido.”
+          </p>
+          <p class="card__author">Trabalhadora do comércio, verbas rescisórias pagas corretamente</p>
+        </article>
+
+        <article class="card card--testimonial card--hover">
+          <p class="card__quote">
+            “Eu já tinha perdido o sono com tanto processo. Com a consultoria, organizamos
+            tudo e reduzimos muito o risco trabalhista.”
+          </p>
+          <p class="card__author">Empresário do ramo de serviços, consultoria preventiva</p>
+        </article>
+
+        <article class="card card--testimonial card--hover">
+          <p class="card__quote">
+            “Fui ouvido, respeitado e entendi exatamente o que estava acontecendo.
+            Isso fez toda diferença na minha decisão.”
+          </p>
+          <p class="card__author">Ex-colaborador de indústria, acordo trabalhista formalizado</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section--soft" id="faq">
+    <div class="container">
+      <div class="section__header">
+        <h2>Dúvidas comuns de quem está vivendo isso pela primeira vez</h2>
+      </div>
+
+      <div class="faq">
+        <div class="faq__item">
+          <button class="faq__question">
+            Eu pago alguma coisa para ter a primeira orientação?
+            <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__answer">
+            <p>
+              Você pode informar aqui se há uma avaliação gratuita inicial ou como funciona
+              a política de honorários do escritório.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <button class="faq__question">
+            Quanto tempo eu tenho para entrar com uma ação trabalhista?
+            <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__answer">
+            <p>
+              Explique, em linguagem simples, as noções de prazos prescricionais (sem citar
+              artigos, apenas o entendimento prático).
+            </p>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <button class="faq__question">
+            Não tenho todos os documentos, ainda assim vale a pena falar com o escritório?
+            <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__answer">
+            <p>
+              Deixe claro que muitas provas podem ser obtidas de outras formas e que vale
+              a pena conversar antes de desistir.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <button class="faq__question">
+            Atendem apenas trabalhadores ou também empresas?
+            <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__answer">
+            <p>
+              Confirme aqui que o escritório atende tanto trabalhadores quanto empresas,
+              ou ajuste de acordo com a realidade da sua amiga.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="section section--contact" id="contato">
+    <div class="container contact">
+      <div class="contact__info">
+        <span class="section__tag">Contato</span>
+        <h2>Conte o que está acontecendo. Vamos organizar seus direitos.</h2>
+
+        <p>
+          Atendimento online e presencial com horário agendado.
+        </p>
+
+        <ul class="contact__list">
+          <li><strong>WhatsApp:</strong> (11) 9 9999-9999</li>
+          <li><strong>E-mail:</strong> contato@escritorio.com.br</li>
+          <li><strong>Endereço:</strong> Rua Exemplo, 123 - Bairro - Cidade/UF</li>
+        </ul>
+
+        <p class="contact__note">
+          Situações de demissão recente, assédio ou urgência são priorizadas na agenda.
+        </p>
+      </div>
+
+      <form class="hero-form" onsubmit="enviarWhatsapp(event)">
+        <input type="text" placeholder="Nome completo" required>
+        <input type="email" placeholder="Seu e-mail" required>
+        <input type="tel" placeholder="Telefone / WhatsApp" required>
+        <textarea rows="4" placeholder="Descreva sua situação com alguns detalhes" required></textarea>
+
+        <button type="submit" class="btn btn--primary btn--full js-animated-button">
+          Enviar mensagem para o escritório
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- RODAPÉ -->
+  <footer class="footer">
+    <div class="container footer__content">
+      <p>© 2025 – Escritório especializado em Direito do Trabalho. Todos os direitos reservados.</p>
+      <p class="footer__dev">
+        Site desenvolvido por Kelvin Anchieta.
+      </p>
+    </div>
+  </footer>
+
+  <script src="direito.js"></script>
+</body>
+
+</html>
