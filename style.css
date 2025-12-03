@@ -824,12 +824,7 @@ body {
   }
 
   .hero h1 {
-    font-size: 1.7rem;
-    line-height: 1.3;
-  }
-
-  .hero__subtitle {
-    font-size: 0.9rem;
+    font-size: 2rem;
   }
 
   .header__content {
@@ -841,12 +836,25 @@ body {
   }
 }
 
-
 @media (max-width: 768px) {
   /* Botões do topo em coluna */
   .hero__actions {
     flex-direction: column;
     align-items: stretch;
+  }
+
+  .hero__trust-bar {
+    display: none !important;
+  }
+
+    .header__content {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  /* Também ajuda deixar o brand respirando melhor */
+  .header__logo-text {
+    margin-left: 2px;
   }
 
   .hero__actions .btn {
